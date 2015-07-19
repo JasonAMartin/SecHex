@@ -3,9 +3,22 @@
 logo: /asset/something.png
 feed: /atom.xml
 google_analytics: UA-5000000-1
-linkedin: http://linkedin/in/jasonamartin/
-twitter: http://twitter.com/jasonamartin/
+
+# Social Links - Note: If the social link is null, it won't publish out.
+
+linkedin: https://www.linkedin.com/in/jasonamartin
+twitter: https://twitter.com/jasonamartin
+github: https://github.com/JasonAMartin/
 facebook:
 instagram:
-github: https://github.com/JasonAMartin/
 pinterest:
+
+# Sidebar Links
+# This is a JSON object where the key is your link name and the value is the link url.
+# In the sidebar the theme will iterate through sidebarLinks (so put links in order you wish them to appear). Leave empty if you desire no links in its place.
+
+sidebarLinks: {
+  "Home" : "http://www.secstorm.com",
+  "Infosec Resource List" : "http://wwww.secstorm.com/infosec-resource-list/",
+  "My Lab" : "http://www.secstorm.com/my-lab/"
+  }

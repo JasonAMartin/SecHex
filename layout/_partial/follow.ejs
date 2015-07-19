@@ -28,5 +28,12 @@
 
 </div>
 
-<!-- put desired links here -->
-<!-- example: <h6><a href="<%- config.root %>about">About</a></h6> -->
+<nav class="ss-sidebar-featured">
+	<ul class="ss-sidebar-list">
+		<% for (link in theme.sidebarLinks) { %>
+			<% if(theme.sidebarLinks.hasOwnProperty(link)){ %>
+				<li class="ss-sidebar-item"><span class="ss-sidebar-item-separator">//</span><a href="<%- theme.sidebarLinks[link] %>"><%- link %><</a></li>
+			<% } %>
+		<% } %>
+	</ul>
+</nav>

@@ -4,6 +4,16 @@ Forked from [here](https://github.com/guolin/crisp-hexo-theme). I used this as a
 
 This is the theme I use at [SecStorm](http://www.secstorm.com), so you can see it in action there.
 
+## Concept & Notes
+
+Simplicity.
+
+The idea of this theme is to be clean and functional. I didn't pour my heart & soul into this theme because I'd rather spend my time learning information security and writing content for SecStorm.com.
+
+For others, especially another developer, I hope this theme can provide a base that you can then easily add all the bells & whistles you want.
+
+I had thought about incorporating LESS for Hexo, but given that I want to keep things simple for someone else to use, I decided that adding LESS just adds one more thing someone needs to install and use.
+
 ## Using SecHex Theme
 
 Once you have NodeJS/Hexo rocking, you can simply git clone this theme into your site's theme directory, like this (assuming you're in the root directory):
