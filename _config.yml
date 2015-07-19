@@ -22,6 +22,7 @@ socialName: Jason A. Martin
 
 sidebarLinks: {
   "Home" : "http://www.secstorm.com",
-  "Infosec Resource List" : "http://wwww.secstorm.com/infosec-resource-list/",
-  "My Lab" : "http://www.secstorm.com/my-lab/"
+  "Infosec Resource List" : "http://www.secstorm.com/infosec-resource-list/",
+  "My Lab" : "http://www.secstorm.com/my-lab/",
+  "Featured Articles" : "http://www.secstorm.com/featured-articles/"
   }
