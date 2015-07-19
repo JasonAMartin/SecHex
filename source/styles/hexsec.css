@@ -482,23 +482,23 @@ pre .javascript .function {
 
 /* SecHex: Featured Sidebar Links */
 
-.sh-sidebar-featured {
+.hs-sidebar-featured {
 	display: block;
 }
 
-.sh-sidebar-list {
+.hs-sidebar-list {
     margin: 0 !important;
     padding: 0 0 1rem;
     list-style: outside none none;
 }
 
-.sh-sidebar-item {
+.hs-sidebar-item {
 	display: inline-block;
 	width: 100%;
 	white-space: nowrap;
 }
 
-.sh-sidebar-item-separator {
+.hs-sidebar-item-separator {
     font-weight: 100;
     font-family: "Helvetica","Arial",sans-serif;
     color: #E54028;
@@ -506,7 +506,7 @@ pre .javascript .function {
     margin-right: 0.4rem;
 }
 
-.sh-sidebar-item a {
+.hs-sidebar-item a {
     background: transparent none repeat scroll 0% 0%;
     color: #FFF;
     margin-top: 1rem;
@@ -518,18 +518,18 @@ pre .javascript .function {
     line-height: 1.5rem;
 }
 
-.sh-sidebar-item a:hover {
+.hs-sidebar-item a:hover {
 	color: #E54028;
 }
 
-.sh-site-title {
+.hs-site-title {
 	font-weight: 400;
 	padding-top: 1rem;
 	font-size: 2rem;
 	margin-bottom: 0.25rem;
 }
 
-.sh-site-subtitle {
+.hs-site-subtitle {
 	font-family: "Helvetica","Arial",sans-serif;
 	font-weight: 200;
 	color: #8B8B8B;
@@ -539,7 +539,7 @@ pre .javascript .function {
 	margin-bottom: 1em;
 }
 
-.sh-social-name {
+.hs-social-name {
 	margin-bottom: 1em;
 	color: #fff;
 	text-transform: uppercase;
@@ -547,7 +547,7 @@ pre .javascript .function {
 	line-height: 1.2em;
 }
 
-.sh-byline {
+.hs-byline {
 	text-transform: uppercase;
 	font-size: .8em;
 }

@@ -1,7 +1,7 @@
 <div id="follow-icons">
-	
+
 <% if (theme.socialName) { %>
-	<div class="sh-social-name">Connect with <%- theme.socialName %> here:</div>
+	<div class="hs-social-name">Connect with <%- theme.socialName %> here:</div>
 <% } %>
 
 <% if (theme.linkedin) { %>
@@ -32,11 +32,11 @@
 
 </div>
 
-<nav class="sh-sidebar-featured">
-	<ul class="sh-sidebar-list">
+<nav class="hs-sidebar-featured">
+	<ul class="hs-sidebar-list">
 		<% for (link in theme.sidebarLinks) { %>
 			<% if(theme.sidebarLinks.hasOwnProperty(link)){ %>
-				<li class="sh-sidebar-item"><span class="sh-sidebar-item-separator">//</span><a href="<%- theme.sidebarLinks[link] %>"><%- link %></a></li>
+				<li class="hs-sidebar-item"><span class="hs-sidebar-item-separator">//</span><a href="<%- theme.sidebarLinks[link] %>"><%- link %></a></li>
 			<% } %>
 		<% } %>
 	</ul>
