@@ -1,31 +1,25 @@
-# crisp
+# SecHex
 
-a really minimalist theme. inspired by [a ghost theme crisp](https://github.com/kathyqian/crisp-ghost-theme)
+Forked from [here](https://github.com/guolin/crisp-hexo-theme). I used this as a base for my entry into [Hexo](http://www.hexo.io) theming.
 
-Preview: [Live Demo](//guolin.github.io)
+This is the theme I use at [SecStorm](http://www.secstorm.com), so you can see it in action there.
 
-## Installation
+## Using SecHex Theme
 
-### Install
-
-``` bash
-$ git clone https://github.com/guolin/crisp-ghost-theme.git themes/crisp
-```
-
-### Enable
-
-Modify `theme` setting in `_config.yml` to `crisp`.
-
-### Update
+Once you have NodeJS/Hexo rocking, you can simply git clone this theme into your site's theme directory, like this (assuming you're in the root directory):
 
 ``` bash
-cd themes/casper
-git pull
+$ git clone https://github.com/JasonAMartin/SecHex themes/sechex
 ```
+
+Once that's done, you can edit the config file to use the new theme "sechex" and you're set.
+
+Whenever you want to update, just do a git pull.
+
+Or fork this bad boy and rock your own flavor.
 
 ## Configuration
 
 - **logo** - Your website logo.
 - **rss** - RSS subscription link (change if using Feedburner)
 - **google_analytics** - Google Analytics id.
-
