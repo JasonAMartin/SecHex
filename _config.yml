@@ -13,6 +13,9 @@ facebook:
 instagram:
 pinterest:
 
+# Social Name -- if set, theme will add a "connect with <you>" line of html before social icons.
+socialName: Jason A. Martin
+
 # Sidebar Links
 # This is a JSON object where the key is your link name and the value is the link url.
 # In the sidebar the theme will iterate through sidebarLinks (so put links in order you wish them to appear). Leave empty if you desire no links in its place.
