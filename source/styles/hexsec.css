@@ -39,15 +39,15 @@ body {
 
 /* Blocks */
 header {
-	border-right: 1px #eee solid;
+	border-right: 1px #2D303B solid;
 	padding: 2em;
 	position:fixed;
 	top: 0;
 	left: 0;
 	height:100%;
-	width:13.5em;
-	margin: 60% 2rem 0px;
+	width:18em;
 	text-align: right;
+	background: #2D303B;
 }
 #content {
 	display: block;
@@ -482,12 +482,14 @@ pre .javascript .function {
 }
 
 .sh-sidebar-item {
-	display: inline-block;
+	display: inline;
+	width: 100%;
+	white-space: nowrap;
 }
 
 .sh-sidebar-item-separator {
     font-weight: 100;
-    font-family: "Raleway","Helvetica","Arial",sans-serif;
+    font-family: "Helvetica","Arial",sans-serif;
     color: #E54028;
     letter-spacing: -0.35rem;
     margin-right: 0.4rem;
@@ -505,6 +507,22 @@ pre .javascript .function {
     line-height: 1.5rem;
 }
 
-.sh-subtitle {
+.sh-sidebar-item a:hover {
+	color: #E54028;
+}
+
+.sh-site-title {
+	font-weight: 400;
+	padding-top: 1rem;
+	font-size: 2rem;
+	margin-bottom: 0.25rem;
+}
+
+.sh-site-subtitle {
+	font-family: "Helvetica","Arial",sans-serif;
+	font-weight: 200;
 	color: #8B8B8B;
+	font-size: 1.4rem;
+	margin-top: 0.25rem;
+	font-weight: normal !important;
 }

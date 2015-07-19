@@ -47,8 +47,7 @@
 	<% } %>
 
         <header id="header">
-            <% if (theme.logo) { %><a id="logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="<%- config.title%>" /></a><% } %>
-            <h1><a href="<%- config.root %>"><%- config.author %></a></h1>
+            <h1><a href="<%- config.root %>"><%- config.title %></a></h1>
             <h2 class="sh-subtitle"><%- config.subtitle %></h2>
             <%- partial('_partial/follow') %>
         </header>
