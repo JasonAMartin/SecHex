@@ -1,8 +1,10 @@
 <% permalink = config.url + config.root + post.path %>
 
-<article class="post">
 
-  <%= date(post.date, 'MMMM D, YYYY') %>
+<article class="post">
+<h1 class="post-title"><%- post.title %></h1>
+<div class="sh-post-meta">
+  <span class="sh-post-meta-date"><%= date(post.date, 'MMMM D, YYYY') %></span>
   <% if (post.tags && post.tags.length){ %>
     <span class="taglist">  &middot;
     <% count = post.tags.length %>
@@ -11,8 +13,12 @@
     <% }); %>
     </span>
   <% } %>
+</div>
 
-  <h1 class="post-title"><%- post.title %></h1>
+<% if (config.author){ %>
+  <div class="sh-byline">By: <%- config.author -></div>
+<% } %>
+
   <section class="post-content article-entry">
     <%- post.content %>
   </section>
