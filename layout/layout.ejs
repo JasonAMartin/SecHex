@@ -23,13 +23,13 @@
         <meta name="description" content="<%- config.description %>">
         <link rel="shortcut icon" href="<%- theme.logo %>"/>
         <link rel="alternate" type="application/rss+xml" title="<%- config.author %>" href="<%- theme.feed %>">
-        <link rel="canonical" href="http://guolinn.com/">
+        <link rel="canonical" href="http://www.secstorm.com/">
 
         <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
         <meta name="description" content="{{meta_description}}">
 
         <link href="//libs.baidu.com/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="<%- config.root %>styles/crisp.css">
+        <link rel="stylesheet" type="text/css" href="<%- config.root %>styles/hexsec.css">
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,7 +49,7 @@
         <header id="header">
             <% if (theme.logo) { %><a id="logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="<%- config.title%>" /></a><% } %>
             <h1><a href="<%- config.root %>"><%- config.author %></a></h1>
-            <p><%- config.subtitle %></p>
+            <h2 class="sh-subtitle"><%- config.subtitle %></h2>
             <%- partial('_partial/follow') %>
         </header>
 
@@ -69,5 +69,3 @@
         </script>
     </body>
 </html>
-
-
