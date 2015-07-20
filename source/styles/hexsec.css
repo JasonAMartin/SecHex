@@ -486,7 +486,8 @@ pre .javascript .function {
 	display: block;
 }
 
-.hs-sidebar-list {
+.hs-sidebar-list,
+.hs-upcoming-content-list {
     margin: 0 !important;
     padding: 0 0 1rem;
     list-style: outside none none;
@@ -496,6 +497,11 @@ pre .javascript .function {
 	display: inline-block;
 	width: 100%;
 	white-space: nowrap;
+}
+
+.hs-upcoming-content-item {
+	display: inline;
+	width: 100%;
 }
 
 .hs-sidebar-item-separator {

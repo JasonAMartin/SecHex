@@ -25,4 +25,10 @@ sidebarLinks: {
   "Infosec Resource List" : "http://www.secstorm.com/infosec-resource-list/",
   "My Lab" : "http://www.secstorm.com/my-lab/",
   "Featured Articles" : "http://www.secstorm.com/featured-articles/"
-  }
+}
+
+upcomingContent: {
+    "article" : "Aircrack Tutorial",
+    "article" : "Tr0ll CTF VM Walkthrough",
+    "update" : "Infosec Resource List"
+}

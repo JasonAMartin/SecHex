@@ -41,3 +41,19 @@
 		<% } %>
 	</ul>
 </nav>
+
+<div class="hs-upcoming-content">
+	<ul class="hs-upcoming-content-list">
+		<% var firstItem = true %>
+		<% for (item in theme.upcomingContent) { %>
+			<% if(theme.upcomingContent.hasOwnProperty(item)){ %>
+				<% if(firstItem) { %>
+					<% firstItem = false; %>
+					<li class="hs-upcoming-content-item"><span class="hs-sidebar-item-separator"></span><%- item %>: <%- theme.upcomingContent[item] %></li>
+				<% } else { %>
+					<li class="hs-upcoming-content-item"><span class="hs-sidebar-item-separator"> | </span><%- item %>: <%- theme.upcomingContent[item] %></li>
+				<% } %>
+			<% } %>
+		<% } %>
+	</ul>
+</div>
