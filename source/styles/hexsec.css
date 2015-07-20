@@ -271,6 +271,11 @@ footer a:hover {
 	body {
 		padding:0;
 	}
+
+	.hs-upcoming-content-item {
+			display:inline !important;
+	}
+
 	header {
 		border-right: none;
 		border-bottom: 1px #eee solid;
@@ -500,9 +505,19 @@ pre .javascript .function {
 }
 
 .hs-upcoming-content-item {
-	display: inline;
+	color: #FFF;
+	background-color: #999;
+	font-size: 0.7em;
+	font-family: "Open Sans",sans-serif;
+	font-weight: 700 !important;
+	text-transform: uppercase;
 	width: 100%;
-	color: #8B8B8B !important;
+	padding: 0.3em 0.6em;
+	vertical-align: 10%;
+	letter-spacing: 0.05em;
+	border-radius: 0.25em;
+	margin-bottom: .4em;
+	text-align: center;
 }
 
 .hs-upcoming-content {
@@ -563,4 +578,9 @@ pre .javascript .function {
 .hs-byline {
 	text-transform: uppercase;
 	font-size: .8em;
+}
+
+.hs-upcoming-content-header {
+	color: #8B8B8B;
+	text-align: center;
 }
