@@ -502,6 +502,13 @@ pre .javascript .function {
 .hs-upcoming-content-item {
 	display: inline;
 	width: 100%;
+	color: #8B8B8B !important;
+}
+
+.hs-upcoming-content {
+	font-size: 0.8;
+	text-transform: lowercase;
+	color: #fff;
 }
 
 .hs-sidebar-item-separator {

@@ -27,8 +27,6 @@ sidebarLinks: {
   "Featured Articles" : "http://www.secstorm.com/featured-articles/"
   }
 
-upcomingContent: {
-    "article" : "Aircrack Tutorial",
-    "article" : "Tr0ll CTF VM Walkthrough",
-    "update" : "Infosec Resource List"
-    }
+# Upcoming content
+# This is an array of items containing any upcoming updates you want to announce. This list will appear under the Sidebar Links section.
+upcomingContent: ["Aircrack Tutorial", "Tr0ll CTF VM Walkthrough", "Infosec Resource List"]
