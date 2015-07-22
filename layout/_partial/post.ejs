@@ -3,8 +3,8 @@
 
 <article class="post">
 <h1 class="post-title"><%- post.title %></h1>
-<div class="hs-post-meta">
-  <span class="hs-post-meta-date"><%= date(post.date, 'MMMM D, YYYY') %></span>
+<div class="sh-post-meta">
+  <span class="sh-post-meta-date"><%= date(post.date, 'MMMM D, YYYY') %></span>
   <% if (post.tags && post.tags.length){ %>
     <span class="taglist">  &middot;
     <% count = post.tags.length %>
@@ -16,7 +16,7 @@
 </div>
 
 <% if (config.author){ %>
-  <div class="hs-byline">By: <%- config.author %></div>
+  <div class="sh-byline">By: <%- config.author %></div>
 <% } %>
 
   <section class="post-content article-entry">

@@ -1,7 +1,7 @@
 <div id="follow-icons">
 
 <% if (theme.socialName) { %>
-	<div class="hs-social-name">Connect with <%- theme.socialName %> here:</div>
+	<div class="sh-social-name">Connect with <%- theme.socialName %> here:</div>
 <% } %>
 
 <% if (theme.linkedin) { %>
@@ -32,23 +32,23 @@
 
 </div>
 
-<nav class="hs-sidebar-featured">
-	<ul class="hs-sidebar-list">
+<nav class="sh-sidebar-featured">
+	<ul class="sh-sidebar-list">
 		<% for (link in theme.sidebarLinks) { %>
 			<% if(theme.sidebarLinks.hasOwnProperty(link)){ %>
-				<li class="hs-sidebar-item"><span class="hs-sidebar-item-separator">//</span><a href="<%- theme.sidebarLinks[link] %>"><%- link %></a></li>
+				<li class="sh-sidebar-item"><span class="sh-sidebar-item-separator">//</span><a href="<%- theme.sidebarLinks[link] %>"><%- link %></a></li>
 			<% } %>
 		<% } %>
 	</ul>
 </nav>
 
-<div class="hs-upcoming-content">
+<div class="sh-upcoming-content">
 			<% if (theme.upcomingContent.length > 0) { %>
-				<div class="hs-upcoming-content-header">content coming soon:</div>
+				<div class="sh-upcoming-content-header">content coming soon:</div>
 			<% } %>
-	<ul class="hs-upcoming-content-list">
+	<ul class="sh-upcoming-content-list">
 			<% for (var i = 0; i < theme.upcomingContent.length; i++) { %>
-					<li class="hs-upcoming-content-item"><span class="hs-sidebar-item-separator"></span><%- theme.upcomingContent[i] %></li>
+					<li class="sh-upcoming-content-item"><span class="sh-sidebar-item-separator"></span><%- theme.upcomingContent[i] %></li>
 			<% } %>
 	</ul>
 </div>

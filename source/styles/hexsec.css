@@ -272,7 +272,7 @@ footer a:hover {
 		padding:0;
 	}
 
-	.hs-upcoming-content-item {
+	.sh-upcoming-content-item {
 			display:inline !important;
 	}
 
@@ -487,24 +487,24 @@ pre .javascript .function {
 
 /* SecHex: Featured Sidebar Links */
 
-.hs-sidebar-featured {
+.sh-sidebar-featured {
 	display: block;
 }
 
-.hs-sidebar-list,
-.hs-upcoming-content-list {
+.sh-sidebar-list,
+.sh-upcoming-content-list {
     margin: 0 !important;
     padding: 0 0 1rem;
     list-style: outside none none;
 }
 
-.hs-sidebar-item {
+.sh-sidebar-item {
 	display: inline-block;
 	width: 100%;
 	white-space: nowrap;
 }
 
-.hs-upcoming-content-item {
+.sh-upcoming-content-item {
 	color: #FFF;
 	background-color: #999;
 	font-size: 0.7em;
@@ -520,13 +520,13 @@ pre .javascript .function {
 	text-align: center;
 }
 
-.hs-upcoming-content {
+.sh-upcoming-content {
 	font-size: 0.8;
 	text-transform: lowercase;
 	color: #fff;
 }
 
-.hs-sidebar-item-separator {
+.sh-sidebar-item-separator {
     font-weight: 100;
     font-family: "Helvetica","Arial",sans-serif;
     color: #E54028;
@@ -534,7 +534,7 @@ pre .javascript .function {
     margin-right: 0.4rem;
 }
 
-.hs-sidebar-item a {
+.sh-sidebar-item a {
     background: transparent none repeat scroll 0% 0%;
     color: #FFF;
     margin-top: 1rem;
@@ -546,18 +546,18 @@ pre .javascript .function {
     line-height: 1.5rem;
 }
 
-.hs-sidebar-item a:hover {
+.sh-sidebar-item a:hover {
 	color: #E54028;
 }
 
-.hs-site-title {
+.sh-site-title {
 	font-weight: 400;
 	padding-top: 1rem;
 	font-size: 2rem;
 	margin-bottom: 0.25rem;
 }
 
-.hs-site-subtitle {
+.sh-site-subtitle {
 	font-family: "Helvetica","Arial",sans-serif;
 	font-weight: 200;
 	color: #8B8B8B;
@@ -567,7 +567,7 @@ pre .javascript .function {
 	margin-bottom: 1em;
 }
 
-.hs-social-name {
+.sh-social-name {
 	margin-bottom: 1em;
 	color: #fff;
 	text-transform: uppercase;
@@ -575,12 +575,12 @@ pre .javascript .function {
 	line-height: 1.2em;
 }
 
-.hs-byline {
+.sh-byline {
 	text-transform: uppercase;
 	font-size: .8em;
 }
 
-.hs-upcoming-content-header {
+.sh-upcoming-content-header {
 	color: #8B8B8B;
 	text-align: center;
 }
